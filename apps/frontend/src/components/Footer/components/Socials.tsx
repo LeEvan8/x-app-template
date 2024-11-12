@@ -1,24 +1,18 @@
 import {
-  DISCORD_URL,
   EMAIL_URL,
-  FACEBOOK_URL,
   INSTAGRAM_URL,
   LINKEDIN_URL,
   TELEGRAM_URL,
-  TIKTOK_URL,
   X_TWITTER_URL,
   YOUTUBE_URL,
 } from "../../../const";
 import { HStack, Link } from "@chakra-ui/react";
 import React from "react";
 import {
-  FaDiscord,
   FaEnvelope,
-  FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaTelegram,
-  FaTiktok,
   FaXTwitter,
   FaYoutube,
 } from "react-icons/fa6";

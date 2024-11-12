@@ -25,7 +25,7 @@ export const Navbar = () => {
         </HStack>
 
         <HStack flex={1} spacing={4} justifyContent={"end"}>
-          <button rel="import" href="/product.html">Our Team</button>
+  
           <h1>Our Team</h1>
         </HStack>
         

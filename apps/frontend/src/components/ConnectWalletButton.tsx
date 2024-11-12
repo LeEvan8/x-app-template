@@ -1,6 +1,5 @@
 import { Button, Fade, HStack, Text } from "@chakra-ui/react";
 import { useWallet, useWalletModal } from "@vechain/dapp-kit-react";
-import { FaWallet } from "react-icons/fa6";
 import { AddressIcon } from "./Icon";
 import { humanAddress } from "@repo/utils/FormattingUtils";
 
