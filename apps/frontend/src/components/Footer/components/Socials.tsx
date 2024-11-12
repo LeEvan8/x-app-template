@@ -32,23 +32,14 @@ export const Socials: React.FC = () => {
       <Link href={INSTAGRAM_URL} isExternal>
         <FaInstagram size={22} cursor={"pointer"} />
       </Link>
-      <Link href={DISCORD_URL} isExternal>
-        <FaDiscord size={22} cursor={"pointer"} />
-      </Link>
       <Link href={TELEGRAM_URL} isExternal>
         <FaTelegram size={22} cursor={"pointer"} />
-      </Link>
-      <Link href={TIKTOK_URL} isExternal>
-        <FaTiktok size={22} cursor={"pointer"} />
       </Link>
       <Link href={YOUTUBE_URL} isExternal>
         <FaYoutube size={22} cursor={"pointer"} />
       </Link>
       <Link href={LINKEDIN_URL} isExternal>
         <FaLinkedinIn size={22} cursor={"pointer"} />
-      </Link>
-      <Link href={FACEBOOK_URL} isExternal>
-        <FaFacebookF size={22} cursor={"pointer"} />
       </Link>
       <Link href={EMAIL_URL} isExternal>
         <FaEnvelope size={22} cursor={"pointer"} />

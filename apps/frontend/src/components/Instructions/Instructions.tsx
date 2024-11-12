@@ -4,18 +4,19 @@ import { Step } from "./Step";
 const Steps = [
   {
     icon: "/steps/1.svg",
-    title: "Purchase eco-friendly products",
-    description: "Buy products that are eco-friendly and sustainable.",
+    title: "Cleanliness Inspection",
+    description: "Use CCTV in bus or manually upload image by Ops Staffs during checking.",
   },
   {
     icon: "/steps/2.svg",
-    title: "Upload the receipt",
-    description: "Upload your receipt and AI will verify the products.",
+    title: "Image Analysis",
+    description: "Use AI algorithms to detect dirt, stains. Calculating a cleanliness score.",
+
   },
   {
     icon: "/steps/3.svg",
-    title: "Earn rewards",
-    description: "Earn B3TR for purchasing eco-friendly products.",
+    title: "Cleaning Scedule",
+    description: "Automate scheduling and track cleaning activities per bus model.", 
   },
 ];
 

@@ -11,15 +11,7 @@ export const ConnectWalletButton = () => {
   if (!account)
     return (
       <Fade in={true}>
-        <Button
-          onClick={open}
-          colorScheme="primary"
-          size="md"
-          leftIcon={<FaWallet />}
-          data-testid="connect-wallet"
-        >
-          Connect Wallet
-        </Button>
+        
       </Fade>
     );
 

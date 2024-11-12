@@ -4,7 +4,7 @@ export const lightPrimary = {
   "200": "#6575FF",
   "300": "#4C5EFF",
   "400": "#3237FF",
-  "500": "#373EDF", // Provided color
+  "500": "#13511d", // Provided color
   "600": "#2428B6",
   "700": "#111F8D",
   "800": "#001665",

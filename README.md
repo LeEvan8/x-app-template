@@ -1,3 +1,9 @@
+Steps to launch:
+1. cd x-app-template
+2. npm run dev
+3. Open localhost
+
+
 ## Watch the Tutorial
 
 [![Watch the video](https://github.com/user-attachments/assets/462958d6-1be5-4598-b035-95f4ef818f16)](https://www.youtube.com/watch?v=fmm2IDMuYjE)

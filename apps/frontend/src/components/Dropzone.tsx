@@ -30,11 +30,6 @@ export const Dropzone = () => {
         return;
       }
 
-      if (!account) {
-        alert("Please connect your wallet");
-        return;
-      }
-
       setIsLoading(true);
       onOpen();
 
@@ -47,7 +42,7 @@ export const Dropzone = () => {
 
       try {
         const response = await submitReceipt({
-          address: account,
+          address: '',
           deviceID,
           image: base64Image,
         });
@@ -56,7 +51,7 @@ export const Dropzone = () => {
 
         setResponse(response);
       } catch (error) {
-        alert("Error submitting receipt");
+        
       } finally {
         setIsLoading(false);
       }

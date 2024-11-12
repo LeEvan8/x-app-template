@@ -21,12 +21,14 @@ export const Navbar = () => {
         maxW={"container.xl"}
       >
         <HStack flex={1} justifyContent={"start"}>
-          <Image src="/vebetterdao-logo.svg" />
+          <Image src="/public/steps/busBright-logo.png" width={150} height={100} alt='BusBright Logo'/>
         </HStack>
 
         <HStack flex={1} spacing={4} justifyContent={"end"}>
-          <ConnectWalletButton />
+          <button rel="import" href="/product.html">Our Team</button>
+          <h1>Our Team</h1>
         </HStack>
+        
       </Container>
     </Box>
   );
